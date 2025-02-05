@@ -30,13 +30,13 @@ Queries can be made in the following currencies:
 1️⃣ Clone the repository:
 
 ```sh
-git clone https://github.com/your_user/crypto-realtime.git
+git clone https://github.com/ACaminos/cryptocurrency-quoter.git
 ```
 
 2️⃣ Access the project directory:
 
 ```sh
-cd crypto-realtime
+cd cryptocurrency-quoter
 ```
 
 3️⃣ Install the dependencies:
