@@ -4,6 +4,7 @@ import ImagenCripto from './img/imagen-criptos.png'
 import Formulario from './components/Formulario'
 import Resultado from './components/Resultado'
 import Spinner from './components/Spinner'
+import { Analytics } from '@vercel/analytics/react'
 
 const Contenedor = styled.div`
 max-width: 900px;
@@ -78,6 +79,7 @@ function App() {
           { cargando && <Spinner/> }
           {resultado.PRICE && <Resultado resultado={resultado} />}
       </div>
+      <Analytics/>
     </Contenedor>
   )
 }
